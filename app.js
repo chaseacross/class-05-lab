@@ -6,10 +6,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(x, y) {
-  var sumArray = [(x + y), 'the sum of '+ x ' and ' + y + 'is ' +(x + y) ]
+  var sumArray = [(x + y), 'the sum of '+ x +' and ' + y + 'is ' +(x + y) ]
 }
 // Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+sum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
