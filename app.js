@@ -72,6 +72,11 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+testArray = [2,3,4]
+function multiplyArray() {
+  var multiplyArrayArray = [(testArray[0] * testArray[1] * testArray[2]),'The numbers ' + testArray + ' have a product of ' + (testArray[0] * testArray[1] * testArray[2])+'.']
+  return multiplyArrayArray;
+}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
