@@ -6,7 +6,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(x, y) {
-  var sumArray = [(x + y), 'the sum of '+ x +' and ' + y + 'is ' +(x + y) ]
+  var sumArray = [(x + y), 'The sum of '+ x +' and ' + y + ' is ' +(x + y)+'.']
   return sumArray;
 }
 // Here is the test for sum(); uncomment it to run it
