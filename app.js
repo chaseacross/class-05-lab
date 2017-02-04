@@ -10,7 +10,7 @@ function sum(x, y) {
   return sumArray;
 }
 // Here is the test for sum(); uncomment it to run it
-sum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
@@ -27,7 +27,7 @@ function multiply(x, y) {
 }
 
 // Here is the test for multiply(); uncomment it to run it
-multiply(4,7);
+testMultiply(4,7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
@@ -39,7 +39,10 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-
+function sumAndMultiply(x, y, z) {
+  var sumAndMultiplyArray = [(x + y + z),(x * y * z),x +' and '+ y +' and '+ z +' sum to ' +(x + y + z)+'.', 'The product of '+ x +' and '+ y +' and '+ z +' is ' +(x * y * z)+'.']
+  return sumAndMultiplyArray;
+}
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
